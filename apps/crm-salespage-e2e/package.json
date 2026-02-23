@@ -1,0 +1,10 @@
+{
+  "name": "@labs-59-crm/crm-salespage-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@labs-59-crm/crm-salespage"
+    ]
+  }
+}

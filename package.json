@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "dev": "nx run-many -t dev",
+    "build": "nx run-many -t build",
+    "lint": "nx run-many -t lint",
+    "test": "nx run-many -t test",
+    "test:run": "nx run-many -t test:run",
+    "graph": "nx graph",
     "prepare": "husky"
   },
   "private": true,
